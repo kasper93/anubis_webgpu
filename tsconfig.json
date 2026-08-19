@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"target": "es2022",
+		"module": "nodenext",
+		"moduleResolution": "nodenext",
+		"lib": ["es2022", "dom", "dom.iterable"],
+		"types": ["node", "@webgpu/types"],
+		"strict": true,
+		"noEmit": true,
+		"allowImportingTsExtensions": true,
+		"erasableSyntaxOnly": true,
+		"verbatimModuleSyntax": true,
+		"skipLibCheck": true
+	},
+	"include": ["src", "test", "build.ts"]
+}

@@ -1,0 +1,19 @@
+{
+	"name": "anubis_webgpu",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "node build.ts",
+		"test": "node --test test/core.test.ts",
+		"check": "npm run build && tsc --noEmit"
+	},
+	"devDependencies": {
+		"@types/node": "^24.0.0",
+		"@webgpu/types": "^0.1.60",
+		"esbuild": "^0.25.0",
+		"typescript": "^5.9.0"
+	},
+	"allowScripts": {
+		"esbuild@0.25.12": true
+	}
+}
